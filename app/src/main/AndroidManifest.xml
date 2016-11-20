@@ -15,6 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Reusing" />
+        <activity android:name=".Styling" />
+        <activity android:name=".Custom" />
+        <activity android:name=".Translucent" />
+        <activity android:name=".React"></activity>
     </application>
 
 </manifest>

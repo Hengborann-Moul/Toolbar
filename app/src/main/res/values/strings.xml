@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Toolbar</string>
+    <string name="compose">Compose</string>
+    <string name="profile">Profile</string>
+    <string name="reusing">Reusing the Toolbar</string>
+    <string name="styling">Styling the Toolbar</string>
+    <string name="custom">Custom Title View</string>
+    <string name="translucent">Translucent Status Bar</string>
+    <string name="react">Reacting to Scroll</string>
+
 </resources>

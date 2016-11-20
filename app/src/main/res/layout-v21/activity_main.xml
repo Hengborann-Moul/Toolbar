@@ -7,18 +7,51 @@
     android:fitsSystemWindows="true"
     tools:context="com.kit.ratanaktepi.toolbar.MainActivity">
     
-    <Toolbar
+    <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:minHeight="?attr/actionBarSize"
-        android:titleTextColor="@android:color/white"
         android:background="?attr/colorPrimary"/>
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:text="Hello World!"
+        android:id="@+id/reuse"
+        android:layout_marginTop="@dimen/margin"
+        android:text="@string/reusing"
         android:layout_below="@+id/toolbar"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/styling"
+        android:layout_marginTop="@dimen/margin"
+        android:text="@string/styling"
+        android:layout_below="@+id/reuse"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/custom"
+        android:layout_marginTop="@dimen/margin"
+        android:text="@string/custom"
+        android:layout_below="@+id/styling"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/translucent"
+        android:layout_marginTop="@dimen/margin"
+        android:text="@string/translucent"
+        android:layout_below="@+id/custom"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/react"
+        android:layout_marginTop="@dimen/margin"
+        android:text="@string/react"
+        android:layout_below="@+id/translucent"/>
+
 </RelativeLayout>
